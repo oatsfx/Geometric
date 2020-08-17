@@ -19,7 +19,7 @@ namespace Geometric
         [JsonProperty("EmbedColor")]
         public static EmbedColor Stats { get; set; } // This calls the data set from the JSON, this is required for the class below to actually work.
 
-        public partial class EmbedColor // These use long types so that they can be edited in the process of command usage. Integers didn't update for an unknown reason.
+        public partial class EmbedColor
         {
             [JsonProperty("R")]
             public static int R { get; set; }
