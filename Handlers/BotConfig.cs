@@ -9,11 +9,6 @@ namespace Geometric
 {
     public partial class BotConfig
     {
-        //-----------------Current fix. I wish do use a JSON file, but this will do. :(
-        //public static string Token = "MzM4MDcyODcwMzY4NTc1NTE3.DFQLcg.AHo3OUdGz44qtNLK1kGpTHLC0-4";
-        //public static string Version = "v0.91";
-
-
         //-----------------This is for using config.json.
         [JsonProperty("Token")]
         public static string Token { get; set; }
